@@ -1,0 +1,144 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color:  #B2BEB5;
+}
+
+.App {
+  text-align: center;
+  width: 100%; /* Adjust the width as needed */
+}
+
+
+/* App Header */
+.App-header {
+  background-color: #f8f9fa; /* Light background color */
+  /*min-height: 100vh;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem; /* Increased font size */
+  color: #343a40; /* Dark text color */
+}
+label[for="language"] {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  /* Add any other styles you want */
+}
+label[for="singer"] {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  /* Add any other styles you want */
+}
+
+/* Select Dropdown Styling */
+select {
+  font-size: 1rem; /* Set font size for select dropdown */
+  padding: 8px; /* Add padding for a comfortable look */
+  margin-right: 10px; /* Add some margin to separate from the next element */
+  border-radius: 6px; /* Rounded corners */
+}
+
+/* Input Field Styling */
+input {
+  font-size: 1rem; /* Set font size for input fields */
+  padding: 8px; /* Add padding for a comfortable look */
+  border-radius: 6px; /* Rounded corners */
+}
+
+/* Button Styling */
+button {
+  margin: 10px;
+  padding: 10px;
+  margin-top: 30px;
+  background-color:#4B6F44 ; /* Green background color */
+  color: white; /* White text color */
+  border: 3px solid darkgreen; /* No border */
+  border-radius: 10px; /* Rounded corn#4B6F44ers */
+  cursor: pointer; /*  #728C69 Pointer cursor on hover */
+  width: 250px;
+  font-size: 1.2rem;
+}
+button:hover {
+  background-color: #4E6048; /* Darker green on hover */
+}
+
+/* Logo Spin Animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.heading{
+  font-size: 3.5rem;
+  color: white;
+}
+.thumbnails {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center; /* Center items horizontally */
+  gap: -50px; /* Adjust the gap between thumbnails */
+}
+.capture{
+  color: white;
+  font-size: 2rem;
+}
+.captured-frame {
+  width: 85%; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+  border: 5px solid #728C69;
+  border-radius: 15px;
+   /* Add a border if desired */
+  /* Add any other styles you want */
+}
+/* Individual Thumbnail Styling */
+.thumbnail {
+
+  cursor: pointer; /* Pointer cursor on hover */
+}
+.recommend{
+  margin-bottom: 100px;
+  margin-bottom: 50px;
+  font-size: 3.5rem;
+  font-family: open Sans;
+  color: white;
+}
+.thumbnail img {
+  width: 50%%; /* Make sure the image takes up the full width of the container */
+  height: 70%; /* Maintain aspect ratio */
+  border-radius: 10px; /* Rounded corners */
+   border: 2px solid #ddd;
+  
+  transition: transform 0.2s ease-in-out; /* Add a smooth transition effect */
+}
+
+.thumbnail:hover img {
+  transform: scale(1.1); /* Zoom in slightly on hover */
+}
+.thumbnail p {
+  margin: 30px;
+  font-size: 1.5rem;
+  text-align: center;
+  }
+  .thumbnail a {
+    margin-top: 15px;
+    font-size: 1.5rem;}
+#spotify {
+  margin-right: 30px;
+}
+footer {
+  background-color: #4B6F44; /* Dark background color */
+  color: white; /* White text color */
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
